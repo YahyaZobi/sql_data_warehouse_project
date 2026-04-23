@@ -6,9 +6,9 @@ The objective of this initiative is to establish a centralized data platform tha
 This data warehouse will directly support Presto’s key business KPIs, including customer retention, operational efficiency, partner performance, and overall service quality. It will enable accurate calculation of critical metrics such as Customer Lifetime Value (CLV), retention rates, delivery performance, and driver utilization, which are currently challenging to measure consistently.
 <img width="1023" height="631" alt="Screenshot 2026-04-23 at 11 48 49 AM" src="https://github.com/user-attachments/assets/5109d5d2-8092-4547-b51e-949be64c4d06" />
 
-Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
+1- Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2- Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3- Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 📖 Project Overview
 This project involves:
